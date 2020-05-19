@@ -132,15 +132,18 @@ todo-wrapper h2 {
 }
 
 .todo-wrapper #clear-button {
-    background-color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 .todo-wrapper #empty-button {
-    background-color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 .todo-wrapper #save-button {
-    background-color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -162,4 +165,12 @@ todo-wrapper h2 {
     .todo-wrapper input {
         width: 400px;
     }
+}
+
+#add-button {
+  color: black;
+}
+
+#clear-completed-button{
+  color: black;
 }
