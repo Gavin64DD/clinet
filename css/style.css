@@ -1,0 +1,165 @@
+#logo {
+  max-width: 700px;
+  height: auto;
+}
+
+.text{
+  text-align: center;
+}
+
+li{
+   background-color: white;
+   size: 200px;
+   border-style: solid;
+   border-color: black;
+}
+
+span{
+   color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+iframe{
+  border-style: solid;
+  border-color: black;
+}
+
+#mlogo{
+  width:575px;
+}
+
+body{
+  background-color: #16e04c;
+  color: black;
+}
+
+.reverseground {
+  background-color: black;
+  color: #16e04c;
+  background-size: cover;
+}
+
+.reverseground2 {
+  background-color: black;
+  color: #16e04c;
+  background-size: 2000px;
+}
+
+h3 {
+  background-color: #16e04c;
+  font-size: 50px;
+}
+
+.cartext{
+  background-color: #16e04c;
+  font-size: 25px;
+}
+
+.pretty-button{
+color:#16e04c;
+}
+
+#todo-entry-box{
+color:#16e04c;
+}
+
+#todolist{
+  size: 750px;
+  margin-left: 250px;
+}
+
+todo-wrapper h2 {
+    margin: 0;
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.todo-wrapper ol {
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+.todo-wrapper .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.todo-wrapper .pretty-button {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+.todo-wrapper .pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.todo-wrapper input {
+    padding: 3px 6px;
+}
+
+.todo-wrapper form {
+    display: inline-block;
+}
+
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.todo-wrapper #clear-button {
+    background-color: black;
+}
+
+.todo-wrapper #empty-button {
+    background-color: black;
+}
+
+.todo-wrapper #save-button {
+    background-color: black;
+}
+
+@media only screen and (min-width: 1000px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+
+    .todo-wrapper input {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 50px) {
+    .todo-wrapper {
+        width: 75%;
+    }
+
+    .todo-wrapper input {
+        width: 400px;
+    }
+}
